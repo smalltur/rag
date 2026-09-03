@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "question_text": "2022年祥芝镇计生协会副会长补贴一共多少？",
+      "kind": "number",
+      "value": null,
+      "references": [],
+      "error": "ValueError: No company name found in the question.",
+      "answer_details": {
+        "$ref": "#/answer_details/0"
+      }
+    }
+  ],
+  "answer_details": [
+    {
+      "error_traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\smtur\\Desktop\\baoyan\\RAG-Challenge-2-main\\src\\questions_processing.py\", line 278, in _process_single_question\n    answer_dict = self.process_question(question_text, schema)\n  File \"C:\\Users\\smtur\\Desktop\\baoyan\\RAG-Challenge-2-main\\src\\questions_processing.py\", line 191, in process_question\n    raise ValueError(\"No company name found in the question.\")\nValueError: No company name found in the question.\n",
+      "self": "#/answer_details/0"
+    }
+  ],
+  "statistics": {
+    "total_questions": 1,
+    "error_count": 1,
+    "na_count": 0,
+    "success_count": 0
+  }
+}

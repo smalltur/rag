@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "question_text": "2022年祥芝镇计生协会副会长补贴一共多少？",
+      "kind": "number",
+      "value": 6000,
+      "references": [
+        {
+          "pdf_sha1": "xiangzhi_subsidy_2022",
+          "page_index": 4
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/0"
+      }
+    }
+  ],
+  "answer_details": [
+    {
+      "step_by_step_analysis": "1. 问题询问的是“2022年祥芝镇计生协会副会长补贴一共多少？”，即要求一个总金额。\n2. 从上下文中提取相关信息：标题为“2022年度村级计生协会副会长补贴”，发放单位为“祥芝镇人民政府”，这表明补贴是发放给祥芝镇村级计生协会副会长的。\n3. 上下文明确说明“共发放 10 人，每人 600 元，合计人民币陆仟元整（6000.00 元）”。\n4. 表格也列出了合计金额为6000.00元。\n5. 问题中的“祥芝镇计生协会副会长”与上下文中的“村级计生协会副会长”在概念上一致，因为发放单位是祥芝镇人民政府，且补贴是村级计生协会副会长。因此，该金额直接匹配。\n6. 最终答案为6000元。",
+      "reasoning_summary": "上下文直接提供了补贴总金额为6000元，且补贴对象与问题一致，因此无需计算或推断，直接回答6000。",
+      "relevant_pages": [
+        4
+      ],
+      "response_data": {
+        "model": "deepseek-v4-flash",
+        "input_tokens": 1730,
+        "output_tokens": 260
+      },
+      "self": "#/answer_details/0"
+    }
+  ],
+  "statistics": {
+    "total_questions": 1,
+    "error_count": 0,
+    "na_count": 0,
+    "success_count": 1
+  }
+}
